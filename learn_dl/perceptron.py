@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 # from functools import reduce  # python3需要引用reduce
 
-
+# 感知器——线性分类
 class Perceptron(object):
     def __init__(self, input_num, activator):
         '''

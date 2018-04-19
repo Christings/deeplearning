@@ -31,8 +31,8 @@ class Perceptron(object):
         :return:
         '''
         # 把input_vec[x1,x2,x3...]和weights[w1,w2,w3,...]打包在一起
-        # 变成[(x1,w1),(x2,w2),(x3,w3),...]
-        # 然后利用map函数计算[x1*w1, x2*w2, x3*w3]
+        # 变成[(x1,w1),(x2,w2),(x3,w3),...]----zip()函数
+        # 然后利用map函数计算[x1*w1, x2*w2, x3*w3]-----map()函数
         # 最后利用reduce求和
         return self.activator(
             reduce(lambda a, b: a + b,

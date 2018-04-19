@@ -55,7 +55,7 @@ if __name__ == '__main__':
     '''训练线性单元'''
     linear_unit = train_linear_unit()
     # 打印训练获得的权重
-    print linear_unit
+    print(linear_unit)
     # 测试
     print 'Work 3.4 years, monthly salary = %.2f' % linear_unit.predict([3.4])
     print 'Work 15 years, monthly salary = %.2f' % linear_unit.predict([15])
